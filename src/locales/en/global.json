@@ -1,0 +1,12 @@
+{
+  "header":{
+    "title": "Alejandro.GG"
+  },
+  "sections":{
+    "experience": "Experience",
+    "about": "About",
+    "works": "Works",
+    "contact": "Contact"
+  }
+
+}

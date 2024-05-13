@@ -1,0 +1,12 @@
+{
+  "header":{
+    "title": "Alejandro.GG"
+  },
+  "sections":{
+    "experience": "Experiencia",
+    "about": "Sobre mí",
+    "works": "Trabajos",
+    "contact": "Contacto"
+  }
+
+}
