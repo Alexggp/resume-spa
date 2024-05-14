@@ -6,6 +6,7 @@
   background-color: #000000;
   position: absolute;
   top: 0;
+  z-index:1000;
 }
 
 .Title{
@@ -31,7 +32,7 @@
   font-size: 30px;
 }
 
-@media (max-width: 1224px) {
+@media (max-width: 480px) {
   .Header{
     height: 100px;   
   }

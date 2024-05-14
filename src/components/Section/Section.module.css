@@ -10,8 +10,9 @@
   overflow: hidden;
 }
 
-@media (max-width: 1224px) {
+@media (max-width: 480px) {
   .Mid, .Main{
     height: auto;   
+    overflow: visible;
   }
 }

@@ -1,12 +1,14 @@
 .DropDownBackground{
   width: 100vw;
   height: 100vh;
+  position:absolute;
+  z-index:100;
 }
 .DropDownMenu{
   width: 100%;
   background-color: salmon;
   overflow: hidden;
-  position:fixed;
+  position:absolute;
   animation: slideDown 500ms ease-in-out;
   animation-fill-mode: forwards;
   display: block;
@@ -14,6 +16,7 @@
   left:0;
   display: flex;
   flex-direction: column;
+  z-index:100;
 }
 
 @keyframes slideDown{

@@ -24,6 +24,7 @@
 .TextContainer{
   width: 55vw;
   color: #fff;
+  text-align: left;
 }
 
 .Title{
@@ -34,4 +35,36 @@
 }
 .Subtitle{
   font-weight: 500;
+}
+
+
+@media (max-width: 480px) {
+  .FrontPageContainer{
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: calc(100vh - 100px);
+    height: auto;
+    position:absolute;
+    top: 100px;
+    left:0;
+  }
+  .PortraitContainer{
+    max-width: 100%;
+    text-align: center;
+    height: 50vh;
+    overflow: hidden;
+    margin-top: 0px;
+  }
+  .TextContainer{
+    height:calc(50vh - 100px);
+    width: 80%;
+    flex:1;
+  }
+  .Title{
+    font-size: 32px;
+  }
+  .Subtitle{
+    font-size: 16px;
+    font-weight: 300;
+  }
 }

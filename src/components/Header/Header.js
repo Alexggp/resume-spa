@@ -9,7 +9,7 @@ import NavBar from "./NavBar/NavBar";
 
 const Header = () => {
   const { t } = useTranslation('global');
-  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 480px)' })
   const [menuIsOpen, setMenuIsOpen] = useState(false);
 
 
