@@ -14,29 +14,29 @@ const Header = () => {
 
   const menuItems = [
      {
-      value: 'sections.experience',
+      value: 'menu.experience',
       ref: '/'
      },
      {
-      value: 'sections.about',
+      value: 'menu.about',
       ref: '/'
      },
      {
-      value: 'sections.works',
+      value: 'menu.works',
       ref: '/'
      },
      {
-      value: 'sections.contact',
+      value: 'menu.contact',
       ref: '/'
      }
   ]
   
   const navBar = isTabletOrMobile ? '' : (
     <nav className={classes.AnchorMenu}>
-      <a href="/" className={classes.AnchorItem}>{t('sections.experience')}</a>
-      <a href="/" className={classes.AnchorItem}>{t('sections.about')}</a>
-      <a href="/" className={classes.AnchorItem}>{t('sections.works')}</a>
-      <a href="/" className={classes.AnchorItem}>{t('sections.contact')}</a>
+      <a href="/" className={classes.AnchorItem}>{t('menu.experience')}</a>
+      <a href="/" className={classes.AnchorItem}>{t('menu.about')}</a>
+      <a href="/" className={classes.AnchorItem}>{t('menu.works')}</a>
+      <a href="/" className={classes.AnchorItem}>{t('menu.contact')}</a>
     </nav>
   )
 

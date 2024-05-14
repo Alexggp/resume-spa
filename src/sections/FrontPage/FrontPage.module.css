@@ -1,0 +1,37 @@
+.FrontPageContainer{
+  background-color: #181823;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.PortraitContainer{
+  max-width: 45vw;
+  text-align: left;
+  height: calc(100% - 200px);
+  overflow: hidden;
+  margin-top: 140px;
+}
+
+.PortraitContainer img{
+  height:100%;
+  width: auto;
+  filter: saturate(0.5);
+}
+
+.TextContainer{
+  width: 55vw;
+  color: #fff;
+}
+
+.Title{
+  font-size: 75px;
+}
+.TitleAlt{
+  color: #bababd;
+}
+.Subtitle{
+  font-weight: 500;
+}

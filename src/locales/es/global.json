@@ -2,11 +2,16 @@
   "header":{
     "title": "Alejandro.GG"
   },
-  "sections":{
+  "menu":{
     "experience": "Experiencia",
     "about": "Sobre mí",
     "works": "Trabajos",
     "contact": "Contacto"
+  },
+  "frontPage":{
+    "title1": "Soy Alejandro GG Pérez.",
+    "title2": "Arquitecto de desarrollo Web",
+    "subtitle": "Puedo ofrecer soluciones de desarrollo web completas y personalizadas que impulsen su presencia en línea y satisfagan las necesidades específicas de su negocio."
   }
 
 }
