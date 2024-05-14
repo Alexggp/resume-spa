@@ -5,6 +5,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 import classes from './Header.module.css';
 import DropDownMenu from "./DropDownMenu/DropDownMenu";
+import NavBar from "./NavBar/NavBar";
 
 const Header = () => {
   const { t } = useTranslation('global');
@@ -32,12 +33,7 @@ const Header = () => {
   ]
   
   const navBar = isTabletOrMobile ? '' : (
-    <nav className={classes.AnchorMenu}>
-      <a href="/" className={classes.AnchorItem}>{t('menu.experience')}</a>
-      <a href="/" className={classes.AnchorItem}>{t('menu.about')}</a>
-      <a href="/" className={classes.AnchorItem}>{t('menu.works')}</a>
-      <a href="/" className={classes.AnchorItem}>{t('menu.contact')}</a>
-    </nav>
+    <NavBar items={menuItems}/>
   )
 
   const dropDownIconStyle = { 
