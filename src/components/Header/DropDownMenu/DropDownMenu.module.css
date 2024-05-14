@@ -1,0 +1,41 @@
+.DropDownBackground{
+  width: 100vw;
+  height: 100vh;
+}
+.DropDownMenu{
+  width: 100%;
+  background-color: salmon;
+  overflow: hidden;
+  position:fixed;
+  animation: slideDown 500ms ease-in-out;
+  animation-fill-mode: forwards;
+  display: block;
+  top:100px;
+  left:0;
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes slideDown{
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.MenuItem{
+  height: 100px;
+  width: 100%;
+  background-color: #181823;
+  border-bottom: solid 1px #bababd;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 2em;
+  font-size: 20px;
+  color: #bababd;
+}
