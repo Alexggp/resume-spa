@@ -13,6 +13,7 @@
   height: calc(100% - 200px);
   overflow: hidden;
   margin-top: 140px;
+  animation: swipeFromLeft 1500ms ease-in-out;
 }
 
 .PortraitContainer img{
@@ -25,6 +26,9 @@
   width: 55vw;
   color: #fff;
   text-align: left;
+  box-sizing:content-box;
+  display: block;
+  animation: swipeFromRight 1500ms ease-in-out;
 }
 
 .Title{
@@ -67,4 +71,17 @@
     font-size: 16px;
     font-weight: 300;
   }
+}
+
+
+@keyframes swipeFromLeft {
+  from {margin-left: -100%;}
+  to {margin-left: 0;}
+}
+
+
+
+@keyframes swipeFromRight {
+  from {margin-right: -200%;}
+  to {margin-right: 0;}
 }
