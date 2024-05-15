@@ -1,0 +1,17 @@
+.EnumeratedBox{
+ width: 300px;
+ text-align: left;
+}
+.Number{
+  font-size: 150px;
+  color: #bababd;
+}
+.Title{
+  font-size: 40px;
+  color: white;
+  margin-bottom: 1em;
+}
+.Subtitle{
+  font-size: 21px;
+  color: white;
+}

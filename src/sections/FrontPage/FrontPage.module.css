@@ -42,7 +42,7 @@
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 820px) {
   .FrontPageContainer{
     flex-direction: column;
     justify-content: flex-end;
