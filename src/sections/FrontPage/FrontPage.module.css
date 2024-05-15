@@ -48,9 +48,8 @@
     justify-content: flex-end;
     min-height: calc(100vh - 100px);
     height: auto;
-    position:absolute;
-    top: 100px;
-    left:0;
+    padding-top: 100px;
+    width:100%;
   }
   .PortraitContainer{
     max-width: 100%;

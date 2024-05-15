@@ -24,7 +24,7 @@ const WorkExperience = () => {
             color='darkgreen'
             title={t('workExperience.companies.hi.jobTitle')}
             subtitle={t('workExperience.companies.hi.jobDescription')}
-            delay={0}
+            delay={500}
           />
           <EnumeratedItem
             number='02'
