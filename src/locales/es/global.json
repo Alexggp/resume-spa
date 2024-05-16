@@ -35,6 +35,10 @@
     },
     "downloadTitle": "Si quieres saber más descarga mi CV completo",
     "downloadButton":"Descargar"
+  },
+  "philosophy":{
+    "title": "Filosofía y valores",
+    "text": "Como profesional, estoy comprometido con la excelencia y la satisfacción del cliente. Me esfuerzo por entender sus objetivos y necesidades para ofrecer soluciones efectivas y personalizadas. Creo en la importancia de la transparencia y la empatía en cada paso del camino, asegurando una colaboración mutuamente beneficiosa y resultados que impulsen su éxito."
   }
 
 }
