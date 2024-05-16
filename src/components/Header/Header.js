@@ -19,8 +19,8 @@ const Header = () => {
       ref: '/#WorkExperience'
      },
      {
-      value: 'menu.about',
-      ref: '/'
+      value: 'menu.skillSet',
+      ref: '/#SkillSet'
      },
      {
       value: 'menu.works',

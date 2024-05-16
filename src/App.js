@@ -5,6 +5,7 @@ import './App.css';
 import FrontPage from './sections/FrontPage/FrontPage';
 import WorkExperience from './sections/WorkExperience/WorkExperience';
 import Phylosophy from './sections/Phylosophy/Phylosophy';
+import SkillSet from './sections/SkillSet/SkillSet';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <FrontPage />
       <WorkExperience />
       <Phylosophy />
+      <SkillSet/>
     </div>
   );
 }

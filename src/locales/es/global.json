@@ -4,7 +4,7 @@
   },
   "menu":{
     "experience": "Experiencia",
-    "about": "Sobre mí",
+    "skillSet": "Competencias",
     "works": "Trabajos",
     "contact": "Contacto"
   },
@@ -39,6 +39,28 @@
   "philosophy":{
     "title": "Filosofía y valores",
     "text": "Como profesional, estoy comprometido con la excelencia y la satisfacción del cliente. Me esfuerzo por entender sus objetivos y necesidades para ofrecer soluciones efectivas y personalizadas. Creo en la importancia de la transparencia y la empatía en cada paso del camino, asegurando una colaboración mutuamente beneficiosa y resultados que impulsen su éxito."
+  },
+  "skillSet":{
+    "title": "Competencias",
+    "text": "Mis competencias están enfocadas en ofrecer soluciones integrales de desarrollo web para cubrir las necesidades y cumplir los objetivos de mis clientes.",
+    "skills": {
+      "front": {
+        "title": "Front End",
+        "description": "Se desarrollar frontales complejos que enriquecen la experiencia de usuario, utilizando frameworks de última generación."
+      },
+      "back": {
+        "title": "Back End",
+        "description": "He consturido APIs complejas con tecnolgía Node y Express enfocadas en mejorar el rendimiento en entornos de alta concurrencia."
+      },
+      "dataBase": {
+        "title": "Bases de Datos",
+        "description": "Mi experiencia abarca tanto bases de datos relacionales como no relacionales, donde he demostrado habilidades sólidas en su diseño, implementación y gestión."
+      },
+      "devOps": {
+        "title": "Infraestructura",
+        "description": "Mi enfoque se centra en diseñar y mantener infraestructuras robustas y eficientes que satisfagan las necesidades operativas y de rendimiento de los proyectos."
+      }
+    }
   }
 
 }
