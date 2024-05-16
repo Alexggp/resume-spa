@@ -21,8 +21,6 @@ const EnumeratedItem = ({ number, decorated, color, title, subtitle, delay }) =>
         </div>
       </Slide>
     </Fade>
-
-
   );
 }
 

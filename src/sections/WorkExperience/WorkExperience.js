@@ -3,8 +3,8 @@ import { useTranslation } from 'react-i18next';
 
 import Section from "../../components/Section/Section";
 import EnumeratedItem from "../../components/Header/EnumeratedItem/EnumeratedItem";
-
-
+import Button from "../../components/Button/Button";
+import DownloadIcon from '@mui/icons-material/Download';
 import classes from './WorkExperience.module.css';
 
 const WorkExperience = () => {
@@ -12,7 +12,7 @@ const WorkExperience = () => {
 
   return (
     <Section type={'Mid'}>
-      <div className={classes.WorkExperienceContainer}>
+      <div className={classes.WorkExperienceContainer} id="WorkExperience">
         <div className={classes.Title}>
           <span>{t('workExperience.subtitle')}</span>
           <h1>{t('workExperience.title')}</h1>
@@ -42,6 +42,18 @@ const WorkExperience = () => {
             subtitle={t('workExperience.companies.interaction.jobDescription')}
             delay={1500}
           />
+        </div>
+        <div className={classes.DonwloadContainer}>
+          <h1>{t('workExperience.downloadTitle')}</h1>
+          <Button 
+            Icon={DownloadIcon}
+            color='#000'
+            bkColor='#fff'
+            altColor='#fff'
+            altBkColor='#bababd'
+          >
+            <a href="/CV_AlejandroGarciaGascoPerez_2024.pdf" download="Alejandro-GG-Perez-CV">{t('workExperience.downloadButton')}</a>
+          </Button>
         </div>
       </div>
     </Section>

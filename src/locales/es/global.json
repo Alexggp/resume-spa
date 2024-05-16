@@ -32,7 +32,9 @@
         "jobTitle": "Dev Full Stack",
         "jobDescription": "Creé aplicaciones Web multiplataforma de gestión de contenidos"
       }
-    }
+    },
+    "downloadTitle": "Si quieres saber más descarga mi CV completo",
+    "downloadButton":"Descargar"
   }
 
 }

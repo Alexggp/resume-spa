@@ -16,7 +16,7 @@ const Header = () => {
   const menuItems = [
      {
       value: 'menu.experience',
-      ref: '/'
+      ref: '/#WorkExperience'
      },
      {
       value: 'menu.about',
