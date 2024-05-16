@@ -6,6 +6,7 @@ import EnumeratedItem from "../../components/Header/EnumeratedItem/EnumeratedIte
 import Button from "../../components/Button/Button";
 import DownloadIcon from '@mui/icons-material/Download';
 import classes from './WorkExperience.module.css';
+import LogoBar from "../../components/LogoBar/LogoBar";
 
 const WorkExperience = () => {
   const { t } = useTranslation('global');
@@ -54,6 +55,9 @@ const WorkExperience = () => {
           >
             <a href="/CV_AlejandroGarciaGascoPerez_2024.pdf" download="Alejandro-GG-Perez-CV">{t('workExperience.downloadButton')}</a>
           </Button>
+        </div>
+        <div className={classes.LogoBarContainer}>
+          <LogoBar/>
         </div>
       </div>
     </Section>
