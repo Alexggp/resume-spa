@@ -1,4 +1,5 @@
 import React from "react";
+import { useMediaQuery } from 'react-responsive'
 
 
 import { useSideScroll } from "../../hooks/useSideScroll";
@@ -16,9 +17,10 @@ import iberiaLogo from './../../assets/images/iberia.png';
 
 const LogoBar = () => {
 
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 820px)' })
   const scrollRef = useSideScroll();
   return (
-    <div ref={scrollRef} className={classes.LogoBar}>
+    <div ref={!isTabletOrMobile ? scrollRef : null} className={classes.LogoBar}>
       <div className={classes.LogoContainer}>
         <img src={inditexLogo} style={{height: "50%", marginTop:'5%'}} alt='Inditex'></img>
       </div>
@@ -40,7 +42,6 @@ const LogoBar = () => {
       <div className={classes.LogoContainer}>
         <img src={mutuaLogo} alt='Mutua Madrileña'></img>
       </div>
-
     </div>
   );
 }

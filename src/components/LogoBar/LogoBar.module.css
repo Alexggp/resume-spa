@@ -24,3 +24,25 @@
   height: 100%;
   filter: brightness(0%) invert(1);
 }
+
+@media (max-width: 820px) {
+
+  .LogoBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .LogoContainer{
+    flex-shrink: 0;
+    width: 50%;
+    background-color: transparent;
+    padding:30px;
+    height: auto;
+  }
+  .LogoContainer img{
+    width: 100%;
+    height: auto;
+  }
+}
