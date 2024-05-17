@@ -2,30 +2,31 @@ import React from "react";
 import { useTranslation } from 'react-i18next';
 
 import Section from "../../components/Section/Section";
-import classes from './Phylosophy.module.css';
+import classes from './Leadership.module.css';
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
 
-const Phylosophy = () => {
+const Leadership = () => {
   const { t } = useTranslation('global');
 
   return (
     <Section type={'Mid'}>
-      <div className={classes.PhylosophyContainer} id="Phylosophy">
+      <div className={classes.LeadershipContainer} id="Leadership">
+        <div className={classes.Image}></div>
         <div className={classes.TextContainer}>
           <h1 className={classes.Title}>
-            {t('philosophy.title')}
+            {t('leadership.title')}
           </h1>
-          <p>{t('philosophy.text')}</p>
+          <p>{t('leadership.text')}</p>
           <h2>
             <FormatQuoteIcon sx={{transform: 'rotate(180deg)'}}/>
-              {t('philosophy.subText')}
+              {t('leadership.subText')}
             <FormatQuoteIcon />
           </h2>
         </div>
-        <div className={classes.Image}></div>
+
       </div>
     </Section>
   );
 }
 
-export default Phylosophy;
+export default Leadership;

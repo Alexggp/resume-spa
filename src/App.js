@@ -6,7 +6,8 @@ import FrontPage from './sections/FrontPage/FrontPage';
 import WorkExperience from './sections/WorkExperience/WorkExperience';
 import Phylosophy from './sections/Phylosophy/Phylosophy';
 import SkillSet from './sections/SkillSet/SkillSet';
-
+import Leadership
+ from './sections/Leadership/Leadership';
 const App = () => {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ const App = () => {
       <WorkExperience />
       <Phylosophy />
       <SkillSet/>
+      <Leadership/>
     </div>
   );
 }

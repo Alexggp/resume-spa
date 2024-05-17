@@ -38,7 +38,8 @@
   },
   "philosophy":{
     "title": "Filosofía y valores",
-    "text": "Como profesional, estoy comprometido con la excelencia y la satisfacción del cliente. Me esfuerzo por entender sus objetivos y necesidades para ofrecer soluciones efectivas y personalizadas. Creo en la importancia de la transparencia y la empatía en cada paso del camino, asegurando una colaboración mutuamente beneficiosa y resultados que impulsen su éxito."
+    "text": "Como profesional, estoy comprometido con la excelencia y la satisfacción del cliente. Me esfuerzo por entender sus objetivos y necesidades para ofrecer soluciones efectivas y personalizadas. Creo en la importancia de la transparencia y la empatía en cada paso del camino, asegurando una colaboración mutuamente beneficiosa y resultados que impulsen su éxito.",
+    "subText": "Para alcanzar la excelencia, uno debe ser un eterno aprendiz."
   },
   "skillSet":{
     "title": "Competencias",
@@ -61,6 +62,10 @@
         "description": "Mi enfoque se centra en diseñar y mantener infraestructuras robustas y eficientes que satisfagan las necesidades operativas y de rendimiento de los proyectos."
       }
     }
+  },
+  "leadership":{
+    "title":"Liderazgo de equipos",
+    "text":"La comunicación clara y abierta permite alinear a todos los miembros del equipo con los objetivos del proyecto y fomentar un ambiente de entendimiento y cooperación. Se crea un entorno donde cada uno se siente valorado y motivado a dar lo mejor de sí, timpulsando la productividad y la creatividad en nuestros proyectos.",
+    "subText": "Detrás de cada perfil hay una persona con sus miedos, sueños e inquietudes. No se trata de dar órdenes, se trata de inspirar y guiar el talento hacia éxito."
   }
-
 }
