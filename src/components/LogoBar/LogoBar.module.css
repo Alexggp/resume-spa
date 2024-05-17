@@ -11,8 +11,8 @@
 }
 .LogoContainer{
   flex-shrink: 0;
-  border: 1px solid black;
-  background-color: #181823;
+  border: 1px solid #fff;
+  background-color: #000;
   width: 400px;
   height: 250px;
   padding: 75px 0;

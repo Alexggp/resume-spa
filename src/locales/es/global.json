@@ -47,7 +47,7 @@
     "skills": {
       "front": {
         "title": "Front End",
-        "description": "Se desarrollar frontales complejos que enriquecen la experiencia de usuario, utilizando frameworks de última generación."
+        "description": "Sé desarrollar frontales complejos que enriquecen la experiencia de usuario, utilizando frameworks de última generación."
       },
       "back": {
         "title": "Back End",
@@ -65,7 +65,17 @@
   },
   "leadership":{
     "title":"Liderazgo de equipos",
-    "text":"La comunicación clara y abierta permite alinear a todos los miembros del equipo con los objetivos del proyecto y fomentar un ambiente de entendimiento y cooperación. Se crea un entorno donde cada uno se siente valorado y motivado a dar lo mejor de sí, timpulsando la productividad y la creatividad en nuestros proyectos.",
+    "text":"La comunicación clara y abierta permite alinear a todos los miembros del equipo con los objetivos del proyecto y fomentar un ambiente de entendimiento y cooperación. Se crea un entorno donde cada uno se siente valorado y motivado a dar lo mejor de sí, impulsando la productividad y la creatividad en nuestros proyectos.",
     "subText": "Detrás de cada perfil hay una persona con sus miedos, sueños e inquietudes. No se trata de dar órdenes, se trata de inspirar y guiar el talento hacia éxito."
+  },
+  "references":{
+    "title": "Esto es lo que mis compañeros opinan de mí",
+    "subtitle": "La crítica constructiva es vital para alcanzar la excelencia, ya que ofrece perspectivas valiosas y áreas de mejora. Recibir retroalimentación objetiva y bienintencionada fomenta el crecimiento, permitiendo refinar habilidades y corregir errores, impulsando así el desarrollo continuo.",
+    "quotes":{
+      "jose": {
+        "quote": "Alejandro es uno de los mejores profesiones con los que he trabajado. Su dedicacion y esfuerzo en conseguir siempre satisfacer las necesidades de sus clientes es encomiable.",
+        "signature": "Arquitecto Back-end en Revolut"
+      }
+    }
   }
 }

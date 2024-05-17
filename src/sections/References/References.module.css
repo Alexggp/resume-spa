@@ -1,0 +1,84 @@
+.ReferencesContainer {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.TextContainer{
+  width: 50%;
+  padding: 5%;
+  height: 100vh;
+  text-align: left;
+  box-sizing: border-box;
+  position:sticky;
+  top:0;
+  left:0;
+}
+
+.Title {
+  font-size: 65px;
+}
+.TextContainer p{
+  font-size: 21px;
+  color: #bababd;
+}
+
+.FeedBackContainer{
+  width: 50%;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  margin-left: 50%;
+  margin-top: -100vh;
+}
+
+.FeedBack{
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  text-align: left;
+  margin-bottom: 100px;
+}
+
+.FeedBackImage{
+  width: 300px;
+  height: 300px;
+  background-color: lightblue;
+  border-radius: 100%;
+  background-position: center;
+  background-size: cover;
+  align-self: center;
+  margin-bottom: 50px;
+}
+
+.FeedBackQuote{
+  font-size: 30px;
+}
+.FeedBackSignature span{
+  color: #bababd;
+  font-size: 1.5em;
+  line-height: 1.8em;
+}
+
+
+@media (max-width: 820px) {
+  .ReferencesContainer {
+    flex-direction: column;
+  }
+  .TextContainer{
+    width: 100%;
+  }
+  .Title{
+    font-size: 32px;
+  }
+  .TextContainer p{
+    font-size: 21px;
+  }
+
+
+}
