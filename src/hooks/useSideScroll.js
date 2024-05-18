@@ -9,7 +9,7 @@ export function useSideScroll() {
         if (e.deltaY === 0) return;
         e.preventDefault();
         el.scrollTo({
-          left: el.scrollLeft + e.deltaY*2,
+          left: el.scrollLeft + e.deltaY,
           behavior: "smooth"
         });
       };

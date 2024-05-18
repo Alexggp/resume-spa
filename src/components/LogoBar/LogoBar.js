@@ -2,7 +2,7 @@ import React from "react";
 import { useMediaQuery } from 'react-responsive'
 
 
-import { useSideScroll } from "../../hooks/useSideScroll";
+import { useMousePositionSideScroll } from "../../hooks/useMousePositionSideScroll";
 import classes from './LogoBar.module.css';
 
 import cocacolaLogo from './../../assets/images/cocacola.png';
@@ -18,7 +18,7 @@ import iberiaLogo from './../../assets/images/iberia.png';
 const LogoBar = () => {
 
   const isTabletOrMobile = useMediaQuery({ query: '(max-width: 820px)' })
-  const scrollRef = useSideScroll();
+  const scrollRef = useMousePositionSideScroll();
 
 
   const content = <>
