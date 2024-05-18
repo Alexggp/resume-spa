@@ -15,7 +15,7 @@ const SkillSet = () => {
   const iconStyle = {
     width: '100%',
     height: '100%',
-    color: '#a76400'
+    color: '#fff'
   }
 
   return (
