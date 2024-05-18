@@ -4,7 +4,6 @@ import { useTranslation } from 'react-i18next';
 import Section from "../../components/Section/Section";
 import classes from './References.module.css';
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
-import SpaceManAnimation from '../../components/SpaceManAnimation/SpaceManAnimation';
 
 import FotoEva from '../../assets/images/fotoEva.png'
 import FotoDiego from '../../assets/images/fotoDiego.png'
@@ -24,7 +23,6 @@ const References = () => {
             {t('references.title')}
           </h1>
           <p>{t('references.subtitle')}</p>
-          <SpaceManAnimation/>
         </div>
         <div className={classes.FeedBackContainer}>
           <div className={classes.FeedBack}>

@@ -1,19 +1,33 @@
 .FrontPageContainer{
-  background-color: #181823;
+  background-color: #000;
   height: 100vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
+  position: relative;
+  overflow: hidden;
 }
 
+.DiagonalBk{
+  height: 100%;
+  background-color: #fff;
+  flex: 3 1;
+  transform: skew(-45deg);
+  margin-left: 50%;
+  width: 60vw;
+  animation: swipeFromRight 1500ms ease-in-out;
+}
 .PortraitContainer{
-  max-width: 45vw;
-  text-align: left;
-  height: calc(100% - 200px);
+  width: 30vw;
+  height: 30vw;
+  max-width: 500px;
+  max-height: 500px;
+  background-image: url('../../assets/images/portrait.jpg');
   overflow: hidden;
-  margin-top: 140px;
-  animation: swipeFromLeft 1500ms ease-in-out;
+  position: absolute;
+  left: 10vw;
+  top: 200px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 100%;
+  filter: grayscale(1);
 }
 
 .PortraitContainer img{
@@ -23,48 +37,47 @@
 }
 
 .TextContainer{
-  width: 55vw;
-  color: #fff;
+  width: 45vw;
+  color: #000;
   text-align: left;
   box-sizing:content-box;
   display: block;
-  animation: swipeFromRight 1500ms ease-in-out;
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
 }
 
 .Title{
-  font-size: 75px;
+  font-size: 4.5vw;
 }
 .TitleAlt{
-  color: #bababd;
+  color: #000;
+  font-size: 0.5em;
 }
 .Subtitle{
   font-weight: 500;
 }
 
 
-@media (max-width: 820px) {
-  .FrontPageContainer{
-    flex-direction: column;
-    justify-content: flex-end;
-    min-height: calc(100vh - 100px);
-    height: auto;
-    padding-top: 100px;
-    width:100%;
-  }
+@media (max-width: 480px) {
   .PortraitContainer{
-    max-width: 100%;
-    text-align: center;
-    height: 50vh;
-    overflow: hidden;
-    margin-top: 0px;
+    height: 50vw;
+    width: 50vw;
+    max-width: none;
+    max-height: none;
+
   }
   .TextContainer{
-    height:calc(50vh - 100px);
-    width: 80%;
-    flex:1;
+    top: 66vh;
+
+    left: 15vw;
+    width: 80vw;
   }
   .Title{
     font-size: 32px;
+  }
+  .DiagonalBk{
+    width: 100vw;
   }
   .Subtitle{
     font-size: 16px;
@@ -73,14 +86,13 @@
 }
 
 
-@keyframes swipeFromLeft {
-  from {margin-left: -100%;}
-  to {margin-left: 0;}
-}
-
-
-
 @keyframes swipeFromRight {
-  from {margin-right: -200%;}
-  to {margin-right: 0;}
+  from {
+    margin-left: 200%;
+    margin-top: -100%;
+  }
+  to {
+    margin-top: 0;
+    margin-left: 50%;
+  }
 }

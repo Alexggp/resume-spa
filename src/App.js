@@ -12,7 +12,7 @@ import References from './sections/References/References';
 const App = () => {
   return (
     <div className="App">
-      <ProgressBar bgcolor="#5221e6" />
+      <ProgressBar bgcolor="#a76400" />
       <FrontPage />
       <WorkExperience />
       <Phylosophy />

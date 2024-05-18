@@ -15,7 +15,8 @@ const Button = ({ Icon, color, bkColor, altColor, altBkColor, children }) => {
 
   const mainStyle = {
     color: color,
-    backgroundColor: bkColor
+    backgroundColor: bkColor,
+    borderColor: color
   }
   const hoverStyle = {
     backgroundColor: altBkColor,

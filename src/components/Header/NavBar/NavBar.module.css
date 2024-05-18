@@ -1,13 +1,12 @@
 .AnchorMenu{
   align-items: center;
-  background-color: #181823;
   flex-grow: 3;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   height: 100%;
   font-size: 20px;
-  color: #bababd;
+  color: #7c7c7c;
   padding-right: 40px;
 }
 
@@ -15,5 +14,6 @@
   margin: 0 2em;
 }
 .AnchorItem:hover{
-  color:aqua;
+  color:#a76400;
 }
+
