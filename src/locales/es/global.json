@@ -5,7 +5,7 @@
   "menu":{
     "experience": "Experiencia",
     "skillSet": "Competencias",
-    "works": "Trabajos",
+    "references": "Referencias",
     "contact": "Contacto"
   },
   "frontPage":{
@@ -75,6 +75,22 @@
       "jose": {
         "quote": "Alejandro es uno de los mejores profesiones con los que he trabajado. Su dedicacion y esfuerzo en conseguir siempre satisfacer las necesidades de sus clientes es encomiable.",
         "signature": "Arquitecto Back-end en Revolut"
+      },
+      "diego": {
+        "quote": "Conozco a Alejandro desde hace muchos años, siempre se ha enfocado en sus proyectos al máximo, dando lo mejor de sí en todo momento",
+        "signature": "Account Executive en Work With Island"
+      },
+      "eva": {
+        "quote": "Ha sido un placer compartir mi experiencia laboral con Alejandro, siempre aportaba soluciones disruptivas y creativas para solucionar cualquier tipo de problema.",
+        "signature": "Marketing Manager en Singular"
+      },
+      "madre": {
+        "quote": "Parece mentira que un niño con un cuarto tan desordenado se haya convertido en un profesional de tan alto nivel. Estoy muy orgullosa de él",
+        "signature": "Mi Madre"
+      },
+      "ruben": {
+        "quote": "He tenido la suerte de trabajar a las órdenes de Alejandro, siempre nos motivó a cuidar al milímetro los desarrollos. Aprendí mucho de él.",
+        "signature": "Desarrollador DAM en HI-Iberia"
       }
     }
   }

@@ -14,6 +14,9 @@
   position:sticky;
   top:0;
   left:0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .Title {
@@ -54,6 +57,7 @@
   background-size: cover;
   align-self: center;
   margin-bottom: 50px;
+  filter: grayscale(1);
 }
 
 .FeedBackQuote{
@@ -72,6 +76,8 @@
   }
   .TextContainer{
     width: 100%;
+    height: auto;
+    position:relative;
   }
   .Title{
     font-size: 32px;
@@ -79,6 +85,9 @@
   .TextContainer p{
     font-size: 21px;
   }
-
+  .FeedBackContainer{
+    width: 100%;
+    margin:0;
+  }
 
 }

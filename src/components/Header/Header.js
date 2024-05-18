@@ -23,8 +23,8 @@ const Header = () => {
       ref: '/#SkillSet'
      },
      {
-      value: 'menu.works',
-      ref: '/'
+      value: 'menu.references',
+      ref: '/#References'
      },
      {
       value: 'menu.contact',
