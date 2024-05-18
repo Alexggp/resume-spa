@@ -14,7 +14,7 @@ const FrontPage = () => {
       <Header></Header>
       <div className={classes.FrontPageContainer}>
         <div className={classes.DiagonalBk}></div>
-        <div role='image' className={classes.PortraitContainer} />
+        <div role='img' className={classes.PortraitContainer} />
         <div className={classes.TextContainer}>
           <h1 className={classes.Title}>
             <span>{t('frontPage.title1')}</span><br />
