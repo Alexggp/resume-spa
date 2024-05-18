@@ -6,7 +6,6 @@
 }
 .DropDownMenu{
   width: 100%;
-  background-color: salmon;
   overflow: hidden;
   position:absolute;
   animation: slideDown 500ms ease-in-out;
@@ -33,12 +32,12 @@
 .MenuItem{
   height: 100px;
   width: 100%;
-  background-color: #181823;
+  background-color: #000;
   border-bottom: solid 1px #bababd;
   display: flex;
   align-items: center;
   justify-content: start;
   padding-left: 2em;
   font-size: 20px;
-  color: #bababd;
+  color: #fff;
 }

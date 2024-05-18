@@ -42,7 +42,7 @@
 
 @media (max-width: 820px) {
   .WorkExperienceContainer {
-    padding: 20px 0;
+    padding: 50px 0;
     justify-content: center;
     align-items: center;
   }
@@ -56,6 +56,7 @@
   }
 
   .LogoBarContainer{
+    margin-top: 50px;
     margin-left: 0px;
   
   }

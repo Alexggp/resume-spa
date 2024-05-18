@@ -10,29 +10,16 @@
   },
   "frontPage":{
     "title1": "Soy Alejandro GG Pérez.",
-    "title2": "Arquitecto de desarrollo Web",
-    "subtitle": "Puedo ofrecer soluciones de desarrollo web completas y personalizadas que impulsen su presencia en línea y satisfagan las necesidades específicas de su negocio."
+    "title2": "Arquitecto de desarrollo Web"
+  },
+  "calltoaction":{
+    "text": "Ofrezco soluciones de desarrollo web completas y personalizadas que impulsen tu presencia en línea y satisfagan las necesidades específicas de tu negocio.",
+    "title": "Descubre lo que puedo hacer por tí",
+    "button": "Escribeme"
   },
   "workExperience":{
     "title": "Algunos de mis clientes",
-    "companies":{
-      "hi":{
-        "company": "HI-Iberia",
-        "jobTitle": "Jefe de Equipo",
-        "jobDescription": "Lideré el desarrollo de aplicaciones biomédicas y proyectos europeos de I+D"
-      },
-      "ntt":{
-        "company": "NTT-Data",
-        "jobTitle": "Lead Engeneer",
-        "jobDescription": "Diseñé soluciones Web para banca, seguros, industria y sector público"
-      },
-      "interaction":{
-        "company": "Interaction M",
-        "jobTitle": "Dev Full Stack",
-        "jobDescription": "Creé aplicaciones Web multiplataforma de gestión de contenidos"
-      }
-    },
-    "downloadTitle": "Si quieres saber más descarga mi CV completo",
+    "downloadTitle": "Si quieres saber más, descarga mi CV completo",
     "downloadButton":"Descargar"
   },
   "philosophy":{
