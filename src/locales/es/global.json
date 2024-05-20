@@ -24,8 +24,8 @@
   },
   "philosophy":{
     "title": "Filosofía y valores",
-    "text": "Como profesional, estoy comprometido con la excelencia y la satisfacción del cliente. Me esfuerzo por entender sus objetivos y necesidades para ofrecer soluciones efectivas y personalizadas. Creo en la importancia de la transparencia y la empatía en cada paso del camino, asegurando una colaboración mutuamente beneficiosa y resultados que impulsen su éxito.",
-    "subText": "Para alcanzar la excelencia, uno debe ser un eterno aprendiz."
+    "text": "Para alcanzar la excelencia, uno debe ser un eterno aprendiz.",
+    "subtext": "Calidad significa hacer lo correcto cuando nadie está mirando."
   },
   "skillSet":{
     "title": "Competencias",
@@ -51,8 +51,7 @@
   },
   "leadership":{
     "title":"Liderazgo de equipos",
-    "text":"La comunicación clara y abierta permite alinear a todos los miembros del equipo con los objetivos del proyecto y fomentar un ambiente de entendimiento y cooperación. Se crea un entorno donde cada uno se siente valorado y motivado a dar lo mejor de sí, impulsando la productividad y la creatividad en nuestros proyectos.",
-    "subText": "Detrás de cada perfil hay una persona con sus miedos, sueños e inquietudes. No se trata de dar órdenes, se trata de inspirar y guiar el talento hacia éxito."
+    "text": "Detrás de cada perfil hay una persona con sus miedos, sueños e inquietudes. No se trata de dar órdenes, se trata de inspirar y guiar el talento hacia éxito."
   },
   "references":{
     "title": "Esto es lo que mis compañeros opinan de mí",

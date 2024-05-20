@@ -16,10 +16,9 @@ const Leadership = () => {
           <h1 className={classes.Title}>
             {t('leadership.title')}
           </h1>
-          <p>{t('leadership.text')}</p>
           <h2>
             <FormatQuoteIcon sx={{transform: 'rotate(180deg)'}}/>
-              {t('leadership.subText')}
+              {t('leadership.text')}
             <FormatQuoteIcon />
           </h2>
         </div>

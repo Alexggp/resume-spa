@@ -15,10 +15,14 @@ const Phylosophy = () => {
           <h1 className={classes.Title}>
             {t('philosophy.title')}
           </h1>
-          <p>{t('philosophy.text')}</p>
           <h2>
-            <FormatQuoteIcon sx={{transform: 'rotate(180deg)'}}/>
-              {t('philosophy.subText')}
+            <FormatQuoteIcon sx={{ transform: 'rotate(180deg)' }} />
+            {t('philosophy.text')}
+            <FormatQuoteIcon />
+          </h2>
+          <h2>
+            <FormatQuoteIcon sx={{ transform: 'rotate(180deg)' }} />
+            {t('philosophy.subtext')}
             <FormatQuoteIcon />
           </h2>
         </div>
