@@ -2,7 +2,8 @@
   background-color: #000;
   height: 100vh;
   position: relative;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: clip;
 }
 
 .DiagonalBk{
@@ -15,15 +16,15 @@
   animation: swipeFromRight 1500ms ease-in-out;
 }
 .PortraitContainer{
-  width: 30vw;
-  height: 30vw;
+  width: 25vw;
+  height: 25vw;
   max-width: 500px;
   max-height: 500px;
   background-image: url('../../assets/images/portrait.jpg');
   overflow: hidden;
   position: absolute;
   left: 10vw;
-  top: 200px;
+  top: 25vh;
   background-position: center;
   background-size: cover;
   border-radius: 100%;
