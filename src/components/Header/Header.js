@@ -28,7 +28,7 @@ const Header = () => {
      },
      {
       value: 'menu.contact',
-      ref: '/'
+      ref: '/#Contact'
      }
   ]
   

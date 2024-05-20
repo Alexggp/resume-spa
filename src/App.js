@@ -9,6 +9,7 @@ import Phylosophy from './sections/Phylosophy/Phylosophy';
 import SkillSet from './sections/SkillSet/SkillSet';
 import Leadership from './sections/Leadership/Leadership';
 import References from './sections/References/References';
+import Contact from './sections/Contact/Contact';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <SkillSet/>
       <Leadership/>
       <References/>
+      <Contact/>
     </div>
   );
 }

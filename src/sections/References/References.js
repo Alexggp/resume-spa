@@ -22,7 +22,6 @@ const References = () => {
           <h1 className={classes.Title}>
             {t('references.title')}
           </h1>
-          <p>{t('references.subtitle')}</p>
         </div>
         <div className={classes.FeedBackContainer}>
           <div className={classes.FeedBack}>
