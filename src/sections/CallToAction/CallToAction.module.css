@@ -9,6 +9,7 @@
   min-height: 700px;
   padding: 100px;
   box-sizing: border-box;
+
 }
 
 .TextContainer{
@@ -20,10 +21,10 @@
 }
 
 .Title {
-  font-size: 65px;
+  font-size: 4.5vw;
 }
 .CallToActionContainer p{
-  font-size: 21px;
+  font-size: 1.8vw;
   width: 65%;
 }
 
@@ -38,6 +39,7 @@
     font-size: 42px;
   }
   .CallToActionContainer p{
+    font-size: 21px;
     width: 100%;
   }
   

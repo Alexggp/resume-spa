@@ -20,11 +20,7 @@
 }
 
 .Title {
-  font-size: 65px;
-}
-.TextContainer p{
-  font-size: 21px;
-  color: #bababd;
+  font-size: 3.5vw;
 }
 
 .FeedBackContainer{
@@ -45,23 +41,25 @@
   justify-content: flex-start;
   align-items: start;
   text-align: left;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .FeedBackImage{
-  width: 300px;
-  height: 300px;
+  width: 20vw;
+  height: 20vw;
+  max-width: 300px;
+  max-height: 300px;
   background-color: lightblue;
   border-radius: 100%;
   background-position: center;
   background-size: cover;
   align-self: center;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   filter: grayscale(1);
 }
 
 .FeedBackQuote{
-  font-size: 30px;
+  font-size: 1.5vw;
 }
 .FeedBackSignature span{
   color: #bababd;
@@ -89,5 +87,11 @@
     width: 100%;
     margin:0;
   }
-
+  .FeedBackQuote{
+    font-size: 30px;
+  }
+  .Title {
+    font-size: 40px;
+    text-align: center;
+  }
 }

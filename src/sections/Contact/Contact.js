@@ -29,8 +29,12 @@ const Contact = () => {
         <div className={classes.Envelope}>
           <div className={classes.References}>
             <div className={classes.Stamps}>
-              <GitHub sx={stampStyle}/>
-              <LinkedIn sx={stampStyle}/>
+              <a href="https://github.com/Alexggp" target='_blank' rel="noreferrer">
+                <GitHub sx={stampStyle}/>
+              </a>
+              <a href="https://www.linkedin.com/in/alejandro-garc%C3%ADa-gasco-p%C3%A9rez-919265132/" target='_blank' rel="noreferrer">
+                <LinkedIn sx={stampStyle}/>
+                </a>
             </div>
             <div className={classes.Adress}>
             <p>Alejandro García-Gasco Pérez</p>

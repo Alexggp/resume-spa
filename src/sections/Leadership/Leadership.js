@@ -21,6 +21,11 @@ const Leadership = () => {
               {t('leadership.text')}
             <FormatQuoteIcon />
           </h2>
+          <h2>
+            <FormatQuoteIcon sx={{transform: 'rotate(180deg)'}}/>
+              {t('leadership.subtext')}
+            <FormatQuoteIcon />
+          </h2>
         </div>
 
       </div>

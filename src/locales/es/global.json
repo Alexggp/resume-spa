@@ -32,26 +32,27 @@
     "text": "Mis competencias están enfocadas en ofrecer soluciones integrales de desarrollo web para cubrir las necesidades y cumplir los objetivos de mis clientes.",
     "skills": {
       "front": {
-        "title": "Front End",
-        "description": "Sé desarrollar frontales complejos que enriquecen la experiencia de usuario, utilizando frameworks de última generación."
+        "title": "Web",
+        "description": "Desarrollo aplicaciones con frontales complejos que enriquecen la experiencia de usuario, utilizando frameworks de última generación."
       },
       "back": {
-        "title": "Back End",
-        "description": "He consturido APIs complejas con tecnolgía Node y Express enfocadas en mejorar el rendimiento en entornos de alta concurrencia."
+        "title": "APIs",
+        "description": "En el back-end utilizo tecnolgía Node y Express, mejorando el rendimiento en entornos de alta concurrencia."
       },
       "dataBase": {
         "title": "Bases de Datos",
-        "description": "Mi experiencia abarca tanto bases de datos relacionales como no relacionales, donde he demostrado habilidades sólidas en su diseño, implementación y gestión."
+        "description": "Mi experiencia abarca tanto bases de datos relacionales como no relacionales, asi como su diseño, implementación y gestión."
       },
       "devOps": {
-        "title": "Infraestructura",
-        "description": "Mi enfoque se centra en diseñar y mantener infraestructuras robustas y eficientes que satisfagan las necesidades operativas y de rendimiento de los proyectos."
+        "title": "Cloud",
+        "description": "Diseño infraestructuras robustas y eficientes que satisfagan las necesidades operativas de los proyectos."
       }
     }
   },
   "leadership":{
     "title":"Liderazgo de equipos",
-    "text": "Detrás de cada perfil hay una persona con sus miedos, sueños e inquietudes. No se trata de dar órdenes, se trata de inspirar y guiar el talento hacia éxito."
+    "text": "Detrás de cada perfil hay una persona con sus miedos, sueños e inquietudes.",
+    "subtext": "No se trata de dar órdenes, se trata de inspirar y guiar el talento hacia éxito."
   },
   "references":{
     "title": "Esto es lo que mis compañeros opinan de mí",

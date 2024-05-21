@@ -4,8 +4,6 @@
   height: 100%;
   display: flex;
   flex-direction: row;
-  min-height: 700px;
-  
 }
 
 .TextContainer{
@@ -17,17 +15,12 @@
 }
 
 .Title {
-
-  font-size: 65px;
-}
-.TextContainer p{
-  font-size: 21px;
+  font-size: 3.5vw;
 }
 .TextContainer h2{
-  font-size: 30px;
+  font-size: 1.8vw;
   color: #a76400;
 }
-
 .Image{
   width: 50%;
   background-image: url('./../../assets/images/leadership.png');
@@ -44,8 +37,9 @@
   .TextContainer{
     width: 100%;
   }
-  .Title{
-    font-size: 32px;
+  .Title {
+    font-size: 40px;
+    text-align: center;
   }
   .TextContainer p{
     font-size: 21px;
