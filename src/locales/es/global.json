@@ -9,11 +9,11 @@
     "contact": "Contacto"
   },
   "frontPage":{
-    "title1": "Soy Alejandro GG Pérez.",
+    "title1": "Soy Alejandro GG Pérez",
     "title2": "Arquitecto de desarrollo Web"
   },
   "calltoaction":{
-    "text": "Ofrezco soluciones de desarrollo web completas y personalizadas que impulsen tu presencia en línea y satisfagan las necesidades específicas de tu negocio.",
+    "text": "Ofrezco soluciones de desarrollo web personalizadas que impulsen tu presencia en línea y satisfagan las necesidades específicas de tu negocio.",
     "title": "Descubre lo que puedo hacer por tí",
     "button": "Escríbeme"
   },
@@ -70,9 +70,9 @@
         "quote": "Ha sido un placer compartir mi experiencia laboral con Alejandro, siempre aportaba soluciones disruptivas y creativas para solucionar cualquier tipo de problema.",
         "signature": "Marketing Manager en Singular"
       },
-      "madre": {
-        "quote": "Parece mentira que un niño con un cuarto tan desordenado se haya convertido en un profesional de tan alto nivel. Estoy muy orgullosa de él",
-        "signature": "Mi Madre"
+      "maria": {
+        "quote": "Alejandro demostró ser un profesional técnicamente sólido, destacando por su iniciativa y capacidad para innovar, lo que fue clave para el éxito de nuestro equipo.",
+        "signature": "Digital Tech Director en Garaje de Ideas"
       },
       "ruben": {
         "quote": "He tenido la suerte de trabajar a las órdenes de Alejandro, siempre nos motivó a cuidar al milímetro los desarrollos. Aprendí mucho de él.",

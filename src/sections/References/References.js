@@ -7,7 +7,7 @@ import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
 
 import FotoEva from '../../assets/images/fotoEva.png'
 import FotoDiego from '../../assets/images/fotoDiego.png'
-import FotoMadre from '../../assets/images/fotoMadre.png'
+import FotoMaria from '../../assets/images/fotoMaria.png'
 import FotoJose from '../../assets/images/fotoJose.png'
 import FotoRuben from '../../assets/images/fotoRuben.png'
 
@@ -25,66 +25,74 @@ const References = () => {
         </div>
         <div className={classes.FeedBackContainer}>
           <div className={classes.FeedBack}>
-            <div className={classes.FeedBackImage}  style={{backgroundImage: `url(${FotoJose})`}}/>
+            <div className={classes.FeedBackImage} style={{ backgroundImage: `url(${FotoJose})` }} />
             <p className={classes.FeedBackQuote}>
-              <FormatQuoteIcon sx={{transform: 'rotate(180deg)'}}/>
-                {t('references.quotes.jose.quote')}
+              <FormatQuoteIcon sx={{ transform: 'rotate(180deg)' }} />
+              {t('references.quotes.jose.quote')}
               <FormatQuoteIcon />
             </p>
             <div className={classes.FeedBackSignature}>
-              <span> Jose Eduardo Winpenny </span><br/>
+              <a href='https://www.linkedin.com/in/jose-eduardo-winpenny-tejedor-55b04740/' target="_blank" rel="noreferrer">
+                <span> Jose Eduardo Winpenny </span>
+              </a><br />
               {t('references.quotes.jose.signature')}
             </div>
           </div>
 
           <div className={classes.FeedBack}>
-            <div className={classes.FeedBackImage} style={{backgroundImage: `url(${FotoEva})`}}/>
+            <div className={classes.FeedBackImage} style={{ backgroundImage: `url(${FotoEva})` }} />
             <p className={classes.FeedBackQuote}>
-              <FormatQuoteIcon sx={{transform: 'rotate(180deg)'}}/>
-                {t('references.quotes.eva.quote')}
+              <FormatQuoteIcon sx={{ transform: 'rotate(180deg)' }} />
+              {t('references.quotes.eva.quote')}
               <FormatQuoteIcon />
             </p>
             <div className={classes.FeedBackSignature}>
-              <span> Eva Rodríguez </span><br/>
+              <a href='https://www.linkedin.com/in/evarodriguezvidal/' target="_blank" rel="noreferrer">
+                <span> Eva Rodríguez </span>
+              </a><br />
               {t('references.quotes.eva.signature')}
             </div>
           </div>
 
           <div className={classes.FeedBack}>
-            <div className={classes.FeedBackImage} style={{backgroundImage: `url(${FotoDiego})`}}/>
+            <div className={classes.FeedBackImage} style={{ backgroundImage: `url(${FotoDiego})` }} />
             <p className={classes.FeedBackQuote}>
-              <FormatQuoteIcon sx={{transform: 'rotate(180deg)'}}/>
-                {t('references.quotes.diego.quote')}
+              <FormatQuoteIcon sx={{ transform: 'rotate(180deg)' }} />
+              {t('references.quotes.diego.quote')}
               <FormatQuoteIcon />
             </p>
             <div className={classes.FeedBackSignature}>
-              <span> Diego Cerrato </span><br/>
-              {t('references.quotes.diego.signature')}
+              <a href='https://www.linkedin.com/in/diego-cerrato/' target="_blank" rel="noreferrer">
+                <span> Diego Cerrato </span><br />
+                {t('references.quotes.diego.signature')}
+              </a>
             </div>
           </div>
 
           <div className={classes.FeedBack}>
-            <div className={classes.FeedBackImage} style={{backgroundImage: `url(${FotoMadre})`}}/>
+            <div className={classes.FeedBackImage} style={{ backgroundImage: `url(${FotoMaria})` }} />
             <p className={classes.FeedBackQuote}>
-              <FormatQuoteIcon sx={{transform: 'rotate(180deg)'}}/>
-                {t('references.quotes.madre.quote')}
+              <FormatQuoteIcon sx={{ transform: 'rotate(180deg)' }} />
+              {t('references.quotes.maria.quote')}
               <FormatQuoteIcon />
             </p>
             <div className={classes.FeedBackSignature}>
-              <span> Eva Pérez </span><br/>
-              {t('references.quotes.madre.signature')}
+              <a href='https://www.linkedin.com/in/mariacobos/' target="_blank" rel="noreferrer">
+                <span> María Cobos </span><br />
+              </a>
+              {t('references.quotes.maria.signature')}
             </div>
           </div>
 
           <div className={classes.FeedBack}>
-            <div className={classes.FeedBackImage} style={{backgroundImage: `url(${FotoRuben})`}}/>
+            <div className={classes.FeedBackImage} style={{ backgroundImage: `url(${FotoRuben})` }} />
             <p className={classes.FeedBackQuote}>
-              <FormatQuoteIcon sx={{transform: 'rotate(180deg)'}}/>
-                {t('references.quotes.ruben.quote')}
+              <FormatQuoteIcon sx={{ transform: 'rotate(180deg)' }} />
+              {t('references.quotes.ruben.quote')}
               <FormatQuoteIcon />
             </p>
             <div className={classes.FeedBackSignature}>
-              <span> Rubén Galeano </span><br/>
+              <span> Rubén Galeano </span><br />
               {t('references.quotes.ruben.signature')}
             </div>
           </div>
