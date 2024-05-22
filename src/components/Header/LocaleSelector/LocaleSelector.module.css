@@ -1,0 +1,39 @@
+.LocaleSelector{
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #000;
+  
+}
+.LocaleSelector div{
+  padding:0.5em;
+  
+}
+.LocaleItem{
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.LocaleItemSelected{
+  background-color: #000;
+}
+.LocaleItem:hover{
+  color:#a76400;
+}
+
+@media (max-width: 820px) {
+  .LocaleSelector {
+    flex-grow: 1;
+    border: 2px solid #fff;
+  }
+  .LocaleSelector div{
+    flex-grow: 1;
+  }
+
+  .LocaleItem{
+    background-color: #fff;
+    color: #000;
+  }
+  .LocaleItemSelected{
+    background-color: #000;
+  }
+}

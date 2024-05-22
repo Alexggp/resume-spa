@@ -7,9 +7,9 @@ import classes from './Header.module.css';
 import DropDownMenu from "./DropDownMenu/DropDownMenu";
 import NavBar from "./NavBar/NavBar";
 
-const Header = () => {
+const Header = ({chLang}) => {
   const { t } = useTranslation('global');
-  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 820px)' })
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1024px)' })
   const [menuIsOpen, setMenuIsOpen] = useState(false);
 
 
@@ -33,7 +33,7 @@ const Header = () => {
   ]
   
   const navBar = isTabletOrMobile ? '' : (
-    <NavBar items={menuItems}/>
+    <NavBar chLang={chLang} items={menuItems}/>
   )
 
   const dropDownIconStyle = { 
@@ -49,7 +49,7 @@ const Header = () => {
   ) : '';
 
   const dropDwnMenu = (isTabletOrMobile & menuIsOpen) ? (
-    <DropDownMenu items={menuItems} closeMenu={()=>setMenuIsOpen(false)}/>
+    <DropDownMenu chLang={chLang} items={menuItems} closeMenu={()=>setMenuIsOpen(false)}/>
   ) : '';
 
   return (
@@ -61,7 +61,6 @@ const Header = () => {
         </div>
         {navBar}
         {dropDownIcon}
-        
       </div>
     </>
 

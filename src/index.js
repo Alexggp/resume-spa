@@ -15,9 +15,10 @@ import i18next from 'i18next';
 import global_es from './locales/es/global.json';
 import global_en from './locales/en/global.json';
 
+const userLang = navigator.language || navigator.userLanguage;
 i18next.init({
   interpolation: { escapeValue: false },
-  lng: 'es',
+  lng: userLang || 'en',
   resources: {
     es: {
       global: global_es

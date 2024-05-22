@@ -1,5 +1,6 @@
 import React from 'react';
 import ProgressBar from "react-scroll-progress-bar";
+import { useTranslation } from 'react-i18next';
 
 import './App.css';
 import FrontPage from './sections/FrontPage/FrontPage';
@@ -12,10 +13,17 @@ import References from './sections/References/References';
 import Contact from './sections/Contact/Contact';
 
 const App = () => {
+
+  const { i18n } = useTranslation();
+  
+  const changeLanguage = (locale) =>{
+    i18n.changeLanguage(locale);
+  }
+
   return (
     <div className="App">
       <ProgressBar bgcolor="#a76400" />
-      <FrontPage />
+      <FrontPage chLang={changeLanguage}/>
       <CallToAction/>
       <WorkExperience />
       <Phylosophy />

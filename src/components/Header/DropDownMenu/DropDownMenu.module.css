@@ -37,7 +37,8 @@
   display: flex;
   align-items: center;
   justify-content: start;
-  padding-left: 2em;
+  padding: 0 2em;
   font-size: 20px;
   color: #fff;
+  box-sizing: border-box;
 }

@@ -1,10 +1,10 @@
 import React from "react";
 import { useTranslation } from 'react-i18next';
-
+import LocaleSelector from "../LocaleSelector/LocaleSelector";
 
 import classes from './NavBar.module.css';
 
-const NavBar = ({items}) => {
+const NavBar = ({items, chLang}) => {
   const { t } = useTranslation('global');
   
   const menuItems = items.map((item)=>(
@@ -16,6 +16,7 @@ const NavBar = ({items}) => {
   return (
     <nav className={classes.AnchorMenu}>
       {menuItems}
+      <LocaleSelector chLang={chLang}/>
     </nav>
   )
 

@@ -6,12 +6,12 @@ import Section from "../../components/Section/Section";
 
 import classes from './FrontPage.module.css';
 
-const FrontPage = () => {
+const FrontPage = ({chLang}) => {
   const { t } = useTranslation('global');
 
   return (
     <Section type={'Main'}>
-      <Header></Header>
+      <Header chLang={chLang}></Header>
       <div className={classes.FrontPageContainer}>
         <div className={classes.DiagonalBk}></div>
         <div role='img' className={classes.PortraitContainer} />

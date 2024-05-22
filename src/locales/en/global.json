@@ -1,12 +1,87 @@
 {
-  "header":{
+  "header": {
     "title": "Alejandro.GG"
   },
-  "menu":{
+  "menu": {
     "experience": "Experience",
-    "about": "About",
-    "works": "Works",
+    "skillSet": "Skills",
+    "references": "References",
     "contact": "Contact"
+  },
+  "frontPage": {
+    "title1": "I am Alejandro GG Pérez",
+    "title2": "Web Development Architect"
+  },
+  "calltoaction": {
+    "text": "I offer customized web development solutions that boost your online presence and meet your business's specific needs.",
+    "title": "Discover what I can do for you",
+    "button": "Contact Me"
+  },
+  "workExperience": {
+    "title": "Some of my clients",
+    "downloadTitle": "If you want to know more, download my full CV",
+    "downloadButton": "Download"
+  },
+  "philosophy": {
+    "title": "Philosophy and Values",
+    "text": "To achieve excellence, you must be a lifelong learner.",
+    "subtext": "Quality means doing it right when no one is looking."
+  },
+  "skillSet": {
+    "title": "Skills",
+    "text": "My skills are focused on offering comprehensive web development solutions to meet the needs and achieve the goals of my clients.",
+    "skills": {
+      "front": {
+        "title": "Web",
+        "description": "I develop applications with complex front-ends that enrich the user experience, using state-of-the-art frameworks."
+      },
+      "back": {
+        "title": "APIs",
+        "description": "In the back-end, I use Node and Express technology, improving performance in high concurrency environments."
+      },
+      "dataBase": {
+        "title": "Databases",
+        "description": "My experience covers both relational and non-relational databases, as well as their design, implementation, and management."
+      },
+      "devOps": {
+        "title": "Cloud",
+        "description": "I design robust and efficient infrastructures that meet the operational needs of projects."
+      }
+    }
+  },
+  "leadership": {
+    "title": "Team Leadership",
+    "text": "Behind every profile, there is a person with their fears, dreams, and concerns.",
+    "subtext": "It's not about giving orders; it's about inspiring and guiding talent towards success."
+  },
+  "references": {
+    "title": "This is what my colleagues say about me",
+    "subtitle": "Constructive criticism is vital for achieving excellence, as it offers valuable perspectives and areas for improvement. Receiving objective and well-intentioned feedback fosters growth, allowing skills to be refined and mistakes corrected, thus driving continuous development.",
+    "quotes": {
+      "jose": {
+        "quote": "Alejandro is one of the best professionals I have worked with. His dedication and effort to always meet his clients' needs are commendable.",
+        "signature": "Back-end Architect at Revolut"
+      },
+      "diego": {
+        "quote": "I have known Alejandro for many years, he has always focused on his projects to the maximum, giving his best at all times.",
+        "signature": "Account Executive at Work With Island"
+      },
+      "eva": {
+        "quote": "It has been a pleasure to share my work experience with Alejandro, he always came up with disruptive and creative solutions to solve any problem.",
+        "signature": "Marketing Manager at Singular"
+      },
+      "maria": {
+        "quote": "Alejandro proved to be a technically solid professional, standing out for his initiative and ability to innovate, which was key to our team's success.",
+        "signature": "Digital Tech Director at Garaje de Ideas"
+      },
+      "ruben": {
+        "quote": "I was lucky to work under Alejandro's direction, he always motivated us to meticulously care for developments. I learned a lot from him.",
+        "signature": "DAM Developer at HI-Iberia"
+      }
+    }
+  },
+  "contact": {
+    "title": "Let's talk business:",
+    "button": "Send"
   }
-
 }
