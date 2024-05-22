@@ -1,10 +1,18 @@
+.LogoBarContainer{
+    margin-top: 100px;
+    position: relative;
+    width:100%;
+    height: 200px;
+    overflow: hidden;
+}
+
 .LogoBar{
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  overflow-x: auto;
-  width: 98vw;
+  position:absolute;
+  padding-right: 22px;
 }
 .LogoBar::-webkit-scrollbar {
   display: none;
@@ -25,7 +33,7 @@
   filter: brightness(0%) invert(1);
 }
 
-@media (max-width: 820px) {
+@media (max-width: 1024px) {
 
   .LogoBar{
     display: flex;
@@ -33,6 +41,8 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    position: relative;
+    padding: 0;
   }
   .LogoContainer{
     flex-shrink: 0;
@@ -45,5 +55,11 @@
   .LogoContainer img{
     width: 100%;
     height: auto;
+  }
+  .LogoBarContainer{
+    margin-top: 50px;
+    margin-left: 0px;
+    height: auto;
+  
   }
 }

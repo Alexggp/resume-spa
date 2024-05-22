@@ -16,9 +16,7 @@ const WorkExperience = () => {
         <div className={classes.Title}>
           <span>{t('workExperience.title')}</span>
         </div>
-        <div className={classes.LogoBarContainer}>
-          <LogoBar/>
-        </div>
+        <LogoBar/>
         <div className={classes.DonwloadContainer}>
           <h1>{t('workExperience.downloadTitle')}</h1>
           <Button 
