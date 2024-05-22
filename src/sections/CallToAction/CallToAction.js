@@ -16,6 +16,7 @@ const CallToAction = () => {
         <h1 className={classes.Title}>
           {t('calltoaction.title')}
         </h1>
+        <a href="/#Contact">
         <Button
           Icon={MailOutlineIcon}
           color='#000'
@@ -23,8 +24,9 @@ const CallToAction = () => {
           altColor='#fff'
           altBkColor='#000'
         >
-          <a href="/#Contact">{t('calltoaction.button')}</a>
+          {t('calltoaction.button')}
         </Button>
+        </a>
       </div>
     </Section>
   );

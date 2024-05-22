@@ -44,6 +44,10 @@
   margin-bottom: 50px;
 }
 
+.FeedBack > a{
+  align-self: center;
+}
+
 .FeedBackImage{
   width: 20vw;
   height: 20vw;

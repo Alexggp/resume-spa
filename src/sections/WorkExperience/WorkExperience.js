@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 
 import Section from "../../components/Section/Section";
 import Button from "../../components/Button/Button";
-import DownloadIcon from '@mui/icons-material/Download';
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import classes from './WorkExperience.module.css';
 import LogoBar from "../../components/LogoBar/LogoBar";
 
@@ -16,18 +16,20 @@ const WorkExperience = () => {
         <div className={classes.Title}>
           <span>{t('workExperience.title')}</span>
         </div>
-        <LogoBar/>
+        <LogoBar />
         <div className={classes.DonwloadContainer}>
           <h1>{t('workExperience.downloadTitle')}</h1>
-          <Button 
-            Icon={DownloadIcon}
-            color='#fff'
-            bkColor='#000'
-            altColor='#000'
-            altBkColor='#fff'
-          >
-            <a href="/CV_AlejandroGarciaGascoPerez_2024.pdf" download="Alejandro-GG-Perez-CV">{t('workExperience.downloadButton')}</a>
-          </Button>
+          <a href="/#Contact">
+            <Button
+              Icon={CalendarMonthIcon}
+              color='#fff'
+              bkColor='#000'
+              altColor='#000'
+              altBkColor='#fff'
+            >
+              {t('workExperience.downloadButton')}
+            </Button>
+          </a>
         </div>
       </div>
     </Section>

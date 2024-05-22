@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { useTranslation } from 'react-i18next';
 import { GitHub, LinkedIn, MailOutline } from "@mui/icons-material";
 
@@ -14,7 +14,7 @@ const Contact = () => {
   const emailAdress = 'alejandro.gg.perez@gmail.com';
   const emailSubject = 'Contact from WebSite';
 
-  const stampStyle= {
+  const stampStyle = {
     fontSize: 100
   }
 
@@ -30,34 +30,36 @@ const Contact = () => {
           <div className={classes.References}>
             <div className={classes.Stamps}>
               <a href="https://github.com/Alexggp" target='_blank' rel="noreferrer">
-                <GitHub sx={stampStyle}/>
+                <GitHub sx={stampStyle} />
               </a>
               <a href="https://www.linkedin.com/in/alejandro-garc%C3%ADa-gasco-p%C3%A9rez-919265132/" target='_blank' rel="noreferrer">
-                <LinkedIn sx={stampStyle}/>
-                </a>
+                <LinkedIn sx={stampStyle} />
+              </a>
             </div>
             <div className={classes.Adress}>
-            <p>Alejandro García-Gasco Pérez</p>
-            <p>
-              <a href={`mailto:${emailAdress}?subject=${emailSubject}`}>
-                alejandro.gg.perez@gmail.com
-              </a>
-            </p>
-            <p>626581246</p>
+              <p>Alejandro García-Gasco Pérez</p>
+              <p>
+                <a href={`mailto:${emailAdress}?subject=${emailSubject}`}>
+                  alejandro.gg.perez@gmail.com
+                </a>
+              </p>
+              <p>626581246</p>
             </div>
           </div>
           <div className={classes.Form}>
             <h1>{t('contact.title')}</h1>
             <textarea onChange={handlerChange}></textarea>
-            <Button
-              Icon={MailOutline}
-              color='#fff'
-              bkColor='#000'
-              altColor='#fff'
-              altBkColor='#000'
-            >
-              <a href={`mailto:${emailAdress}?subject=${emailSubject}&body=${emailBody}`}>{t('contact.button')}</a>
-            </Button>
+            <a href={`mailto:${emailAdress}?subject=${emailSubject}&body=${emailBody}`}>
+              <Button
+                Icon={MailOutline}
+                color='#fff'
+                bkColor='#000'
+                altColor='#fff'
+                altBkColor='#000'
+              >
+                {t('contact.button')}
+              </Button>
+            </a>
           </div>
         </div>
       </div>
