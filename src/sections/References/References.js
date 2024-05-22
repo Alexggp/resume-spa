@@ -25,8 +25,8 @@ const References = () => {
         </div>
         <div className={classes.FeedBackContainer}>
           <div className={classes.FeedBack}>
-          <a href='https://www.linkedin.com/in/jose-eduardo-winpenny-tejedor-55b04740/' target="_blank" rel="noreferrer">
-            <div className={classes.FeedBackImage} style={{ backgroundImage: `url(${FotoJose})` }} />
+            <a href='https://www.linkedin.com/in/jose-eduardo-winpenny-tejedor-55b04740/' target="_blank" rel="noreferrer">
+              <div className={classes.FeedBackImage} style={{ backgroundImage: `url(${FotoJose})` }} />
             </a>
             <p className={classes.FeedBackQuote}>
               <FormatQuoteIcon sx={{ transform: 'rotate(180deg)' }} />
@@ -42,8 +42,8 @@ const References = () => {
           </div>
 
           <div className={classes.FeedBack}>
-          <a href='https://www.linkedin.com/in/evarodriguezvidal/' target="_blank" rel="noreferrer">
-            <div className={classes.FeedBackImage} style={{ backgroundImage: `url(${FotoEva})` }} />
+            <a href='https://www.linkedin.com/in/evarodriguezvidal/' target="_blank" rel="noreferrer">
+              <div className={classes.FeedBackImage} style={{ backgroundImage: `url(${FotoEva})` }} />
             </a>
             <p className={classes.FeedBackQuote}>
               <FormatQuoteIcon sx={{ transform: 'rotate(180deg)' }} />
@@ -59,8 +59,8 @@ const References = () => {
           </div>
 
           <div className={classes.FeedBack}>
-          <a href='https://www.linkedin.com/in/diego-cerrato/' target="_blank" rel="noreferrer">
-            <div className={classes.FeedBackImage} style={{ backgroundImage: `url(${FotoDiego})` }} />
+            <a href='https://www.linkedin.com/in/diego-cerrato/' target="_blank" rel="noreferrer">
+              <div className={classes.FeedBackImage} style={{ backgroundImage: `url(${FotoDiego})` }} />
             </a>
             <p className={classes.FeedBackQuote}>
               <FormatQuoteIcon sx={{ transform: 'rotate(180deg)' }} />
@@ -70,14 +70,14 @@ const References = () => {
             <div className={classes.FeedBackSignature}>
               <a href='https://www.linkedin.com/in/diego-cerrato/' target="_blank" rel="noreferrer">
                 <span> Diego Cerrato </span>
-              </a><br/>
+              </a><br />
               {t('references.quotes.diego.signature')}
             </div>
           </div>
 
           <div className={classes.FeedBack}>
-          <a href='https://www.linkedin.com/in/mariacobos/' target="_blank" rel="noreferrer">
-            <div className={classes.FeedBackImage} style={{ backgroundImage: `url(${FotoMaria})` }} />
+            <a href='https://www.linkedin.com/in/mariacobos/' target="_blank" rel="noreferrer">
+              <div className={classes.FeedBackImage} style={{ backgroundImage: `url(${FotoMaria})` }} />
             </a>
             <p className={classes.FeedBackQuote}>
               <FormatQuoteIcon sx={{ transform: 'rotate(180deg)' }} />

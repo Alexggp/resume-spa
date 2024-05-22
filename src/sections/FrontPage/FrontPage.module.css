@@ -11,9 +11,11 @@
   background-color: #fff;
   flex: 3 1;
   transform: skew(-45deg);
-  margin-left: 50%;
+  margin-left: 200%;
   width: 60vw;
   animation: swipeFromRight 1500ms ease-in-out;
+  animation-delay: 500ms;
+  animation-fill-mode: forwards;
 }
 .PortraitContainer{
   width: 25vw;
