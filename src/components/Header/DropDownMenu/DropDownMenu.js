@@ -9,9 +9,11 @@ const DropDownMenu = ({items, closeMenu, chLang}) => {
   const { t } = useTranslation('global');
   
   const menuItems = items.map((item)=>(
+    <a href={item.ref}>
     <div className={classes.MenuItem} key={item.value}>
-      <a href={item.ref}>{t(item.value)}</a>
+      {t(item.value)}
     </div>  
+    </a>
   ));
 
   return (
