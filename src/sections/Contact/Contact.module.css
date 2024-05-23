@@ -54,6 +54,12 @@
   align-self: flex-start;
   margin: 0 30px;
 }
+.Form a{
+  display: flex;
+}
+.Form a>*{
+  flex-grow: 1;
+}
 
 @media (max-width: 820px) {
   .Triangle {
