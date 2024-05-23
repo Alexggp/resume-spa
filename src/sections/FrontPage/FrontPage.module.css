@@ -11,10 +11,10 @@
   background-color: #fff;
   flex: 3 1;
   transform: skew(-45deg);
-  margin-left: 200%;
+  margin-left: 250%;
   width: 60vw;
   animation: swipeFromRight 1500ms ease-in-out;
-  animation-delay: 500ms;
+  animation-delay: 1000ms;
   animation-fill-mode: forwards;
 }
 .PortraitContainer{
@@ -91,7 +91,7 @@
 
 @keyframes swipeFromRight {
   from {
-    margin-left: 200%;
+    margin-left: 250%;
     margin-top: -100%;
   }
   to {
